@@ -21,10 +21,18 @@ function App() {
 				</div>
 			</div>
 			{/* side content */}
+			<div className="bg-white flex px-4 py-10 justify-center">
+				<img src={woundmeter}></img>
+				<div>
+					<h4 className='text-3xl text-black mt-10 ml-40 text-center'>We will help you for your IT Solutions</h4>
+					<p className='text-black ml-40 mt-40'>You have problems, with your business core and management of all things we can help you</p>
+				</div>
+			</div>
+			{/*footer*/}
 			<div className="bg-black flex px-4 py-10 justify-center">
 				<div>
-					<img src={woundmeter}></img>
-					<h4 className='text-white mt-10 text-center'>We will help you for your IT Solutions</h4>
+					<h4 className='text-white mt-10 text-center'>techpurrformance@hotmail.com</h4>
+					<h4 className='text-white text-center'>copyright all rights reserved</h4>
 				</div>
 			</div>
 		</>
